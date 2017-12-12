@@ -1,6 +1,6 @@
 </div>	
 <p><br/><br/></p>
-<p class="text-center">Copyright &copy; 2017 Tedir Ghazali</p>
+<p class="text-center">Copyright &copy; 2017 KB Industry</p>
 <p><br/><br/></p>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

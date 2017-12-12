@@ -8,7 +8,8 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="<?php echo site_url() ?>">Ion Auth CodeIgniter</a>
+      <a class="navbar-brand" href="<?php echo site_url() ?>">콜마스터 API
+</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
