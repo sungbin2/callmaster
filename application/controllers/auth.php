@@ -439,7 +439,8 @@ class Auth extends CI_Controller {
 	public function create_user()
     {
         $this->data['title'] = $this->lang->line('create_user_heading');
-
+        $this->data['min_password_length'] = $this->config->item('min_password_length', 'ion_auth');
+        
         if (!$this->ion_auth->logged_in() || !$this->ion_auth->is_admin())
         {
             redirect('auth', 'refresh');
@@ -557,6 +558,7 @@ class Auth extends CI_Controller {
         $tables = $this->config->item('tables','ion_auth');
         $identity_column = $this->config->item('identity','ion_auth');
         $this->data['identity_column'] = $identity_column;
+        $this->data['min_password_length'] = $this->config->item('min_password_length', 'ion_auth');
 
         // validate form input
         $this->form_validation->set_rules('first_name', $this->lang->line('create_user_validation_fname_label'), 'required');

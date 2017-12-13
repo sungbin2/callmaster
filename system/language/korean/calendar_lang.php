@@ -37,20 +37,20 @@
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['cal_su'] = 'Su';
-$lang['cal_mo'] = 'Mo';
-$lang['cal_tu'] = 'Tu';
-$lang['cal_we'] = 'We';
-$lang['cal_th'] = 'Th';
-$lang['cal_fr'] = 'Fr';
-$lang['cal_sa'] = 'Sa';
-$lang['cal_sun'] = 'Sun';
-$lang['cal_mon'] = 'Mon';
-$lang['cal_tue'] = 'Tue';
-$lang['cal_wed'] = 'Wed';
-$lang['cal_thu'] = 'Thu';
-$lang['cal_fri'] = 'Fri';
-$lang['cal_sat'] = 'Sat';
+$lang['cal_su'] = '일';
+$lang['cal_mo'] = '월';
+$lang['cal_tu'] = '화';
+$lang['cal_we'] = '수';
+$lang['cal_th'] = '목';
+$lang['cal_fr'] = '금';
+$lang['cal_sa'] = '토';
+$lang['cal_sun'] = '일';
+$lang['cal_mon'] = '월';
+$lang['cal_tue'] = '화';
+$lang['cal_wed'] = '수';
+$lang['cal_thu'] = '목';
+$lang['cal_fri'] = '금';
+$lang['cal_sat'] = '토';
 $lang['cal_sunday'] = 'Sunday';
 $lang['cal_monday'] = 'Monday';
 $lang['cal_tuesday'] = 'Tuesday';

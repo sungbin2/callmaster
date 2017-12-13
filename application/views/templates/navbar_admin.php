@@ -15,20 +15,20 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="<?php echo site_url() ?>">Dashboard <span class="sr-only">(current)</span></a></li>
-        <li class="active"><a href="<?php echo site_url() ?>/auth/">User Manager</a></li>
-        <li class="active"><a href="<?php echo site_url() ?>/auth/create_user">New User</a></li>
-        <li class="active"><a href="<?php echo site_url() ?>/auth/create_group">New Group</a></li>
-        <li class="active"><a href="<?php echo site_url() ?>/auth/change_password">Change Password</a></li>
+        <li class="active"><a href="<?php echo site_url() ?>">메뉴   <span class="sr-only">(current)</span></a></li>
+        <li class="active"><a href="<?php echo site_url() ?>/auth/">사용자관리</a></li>
+        <li class="active"><a href="<?php echo site_url() ?>/auth/create_user">사용자등록</a></li>
+        <li class="active"><a href="<?php echo site_url() ?>/auth/create_group">그룹등록</a></li>
+        <li class="active"><a href="<?php echo site_url() ?>/auth/change_password">비밀번호 변경</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="auth/"><?php echo $usersx ?></a></li>
+        <li class="active"><a href="<?php echo site_url() ?>/auth/"><?php echo $usersx ?></a></li>
         <li class="dropdown active">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-cog"></i> <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="<?php echo site_url() ?>/auth/">User Manager</a></li>
+            <li><a href="<?php echo site_url() ?>/auth/">사용자 관리</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="<?php echo site_url() ?>/auth/logout">Logout</a></li>
+            <li><a href="<?php echo site_url() ?>/auth/logout">로그아웃</a></li>
           </ul>
         </li>
       </ul>

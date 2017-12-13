@@ -19,8 +19,8 @@ $lang['error_csrf'] = '폼 전송값이 보안 검사를 통과하지 못했습�
 
 // Login
 $lang['login_heading']         = '로그인';
-$lang['login_subheading']      = '이메일이나 계정명으로 로그인 하세요.';
-$lang['login_identity_label']  = '이메일/계정명:';
+$lang['login_subheading']      = '이메일로 로그인 하세요.';
+$lang['login_identity_label']  = '이메일:';
 $lang['login_password_label']  = '비밀번호:';
 $lang['login_remember_label']  = '기억하기:';
 $lang['login_submit_btn']      = '로그인';
@@ -58,7 +58,7 @@ $lang['create_user_identity_label']                    = 'Identity:';
 $lang['create_user_company_label']                     = '회사명:';
 $lang['create_user_email_label']                       = '이메일:';
 $lang['create_user_phone_label']                       = '전화번호:';
-$lang['create_user_password_label']                    = '비밀번호:';
+$lang['create_user_password_label']                    = '비밀번호(최소 %s 자 이상):';
 $lang['create_user_password_confirm_label']            = '비밀번호 재입력:';
 $lang['create_user_submit_btn']                        = '사용자 만들기';
 $lang['create_user_validation_fname_label']            = '이름';
@@ -118,11 +118,11 @@ $lang['edit_group_validation_desc_label']  = '설명';
 
 // Change Password
 $lang['change_password_heading']                               = '비밀번호 바꾸기';
-$lang['change_password_old_password_label']                    = '옛 비밀번호:';
+$lang['change_password_old_password_label']                    = '이전 비밀번호:';
 $lang['change_password_new_password_label']                    = '새 비밀번호 (최소 %s 자 이상):';
 $lang['change_password_new_password_confirm_label']            = '새 비밀번호 재입력:';
 $lang['change_password_submit_btn']                            = '바꾸기';
-$lang['change_password_validation_old_password_label']         = '옛 비밀번호';
+$lang['change_password_validation_old_password_label']         = '이전 비밀번호';
 $lang['change_password_validation_new_password_label']         = '새 비밀번호';
 $lang['change_password_validation_new_password_confirm_label'] = '새 비밀번호 재입력';
 

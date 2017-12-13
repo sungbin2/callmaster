@@ -44,7 +44,7 @@
       </p>
 
       <p>
-            <?php echo lang('create_user_password_label', 'password');?> <br />
+            <?php echo sprintf(lang('create_user_password_label', 'password'),$min_password_length);?> <br />
             <?php echo form_input($password,' ','class="form-control"');?>
       </p>
 
